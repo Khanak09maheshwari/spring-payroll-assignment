@@ -1,0 +1,13 @@
+Create a spring boot application without spring security to implement the Payroll system assignment.
+Create the spring boot application.
+Create Payroll controller, Service and Entity class for employee and payroll.
+Create a Payroll and Employee Hibernate factory. (Others if needed)
+Create the database structure for the system.
+Create the following API’s
+Register a new employee
+    Show list of all employees with type of employee
+    Show employee data with payroll for requested employee ID.
+    Register an input amount as payroll from the user for requested employee ID. calculate and save the taxed amount in the table.Save the amount in dollars. In the database.
+    Take input from the user as an amount and return the filtered list of employees with higher than the input amount.
+    Take input form the user as dollar or rupee and employee id and returns the taxed and non-taxed income of the employee in dollar or rupee (user conversion 1$=80Rs)
+Create a validator and validations before each API implementation.
