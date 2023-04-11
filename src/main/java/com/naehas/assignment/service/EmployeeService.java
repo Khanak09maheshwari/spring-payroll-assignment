@@ -10,10 +10,6 @@ public interface EmployeeService {
 
     Employee findById(int theId);
 
-    double calcSalary(Employee employee);
-
-    double calcSalaryForCustomInput(Employee employee, double amount);
-
     Employee save(Employee theEmployee);
 
     List<Employee> aboveThanAmount(double theAmount);

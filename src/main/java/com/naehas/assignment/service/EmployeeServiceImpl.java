@@ -108,7 +108,7 @@ public class EmployeeServiceImpl implements EmployeeService{
      * calculate the wage after tax according to employee work Type
      * @return wage after tax
      */
-    @Override
+
     public double calcSalary(Employee employee) {
 
         if(employee.getWorkType().equals("T")){
@@ -128,7 +128,7 @@ public class EmployeeServiceImpl implements EmployeeService{
      * @param amount
      * @return
      */
-    @Override
+
     public double calcSalaryForCustomInput(Employee employee, double amount) {
 
         if(employee.getWorkType().equals("T")){
